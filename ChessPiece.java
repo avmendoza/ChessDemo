@@ -1,12 +1,15 @@
 
 public class ChessPiece {
 
+	/*
+	 * adding a comment for gitdemo, note change aColore
+	 */
 	String color;
 	String type;
 	
 	//constructor
-	public ChessPiece(String aColor, String aType) {
-		color = aColor;
+	public ChessPiece(String aColore, String aType) {
+		color = aColore;
 		type = aType;
 	}
 	
