@@ -12,6 +12,10 @@ public class ChessPiece {
 		color = aColore;
 		type = aType;
 	}
+    
+    public  void changeColor(String newColor){
+        color = newColor;
+    }
 	
 	
 }
