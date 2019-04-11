@@ -13,8 +13,8 @@ public class ChessPiece {
 		type = aType;
 	}
     
-    public  void changeColor(String newColor){
-        color = newColor;
+    public  void changeColor(String anewColor){
+        color = anewColor;
     }
 	
 	
