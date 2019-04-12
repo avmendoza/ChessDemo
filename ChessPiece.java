@@ -1,4 +1,7 @@
-
+/**
+* This is a global comment for the class. 
+*
+*/
 public class ChessPiece {
 
 	/*
@@ -17,9 +20,10 @@ public class ChessPiece {
         color = anewColor;
     }
 
-    public  void mPiece(){
-        System.out.println("The Chess Piece has moved");
-    }		
-	
+ 	
+    public void movePiece(){
+    	System.out.println("The Piece has been moved");
+    }
+ 
 	
 }
