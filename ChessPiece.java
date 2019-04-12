@@ -16,6 +16,10 @@ public class ChessPiece {
     public  void changeColor(String anewColor){
         color = anewColor;
     }
+
+    public  void mPiece(){
+        System.out.println("The Chess Piece has moved");
+    }		
 	
 	
 }
